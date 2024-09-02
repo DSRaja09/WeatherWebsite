@@ -1,0 +1,75 @@
+body {
+    background-color: hsl(0, 0%, 90%);
+}
+
+.WeatherChecker{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.EnterCity {
+    padding: 8px;
+    border: 2px solid;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: hsl(120, 50%, 40%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    margin: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: hsl(120, 50%, 30%);
+}
+.DisplayWeather{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(180deg, hsl(195, 95%, 66%), hsl(46, 99%, 62%));
+    font-weight: bold;
+    padding: 15px 15px;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.5);
+    width: 200px;
+    margin: 7px;
+}
+h2{
+    font-size: 1.3rem;
+    margin: 5px 2px;
+}
+p{
+    margin: 5px;
+}
+.cityDisplay, .tempDisplay, .feelsDisplay{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:black;
+    margin: 25px;
+}
+.descDisplay{
+    font-size: 1.1rem;
+    font-weight: bold;
+    color:black;
+    margin: 25px;
+}
+.humidityDisplay{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:black;
+    margin: 25px;
+}
+.emogiDisplay{
+    font-size: 5.5rem;
+}
+.errorDisplay{
+    font-size: 1.4rem;
+    font-weight: bold;
+    color:black;
+    margin: 5px;
+}
